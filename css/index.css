@@ -235,7 +235,9 @@ html, body, .swiper-container, .swiper-slide {
     animation:shake1 1s linear 1s infinite both;
 }
 
-
+.page2{
+    position: relative;
+}
 
 .page2 div:nth-child(1){
     position: relative;
@@ -257,7 +259,7 @@ html, body, .swiper-container, .swiper-slide {
     height: 100%;
 }
 .page2 ul{
-    position: relative;
+    position: absolute;
     padding:5%;
     width: 90%;
     /*top: 3rem;*/
